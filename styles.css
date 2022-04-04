@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(80, 180, 80);
+  color: #FFF;
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 25px
+}
+
+.container {
+  width: 400px;
+  background-color: #FFF;
+  padding: 15px;
+  margin: auto;
+  box-shadow: 1px 1px 10px;
+}
+
+form#animal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+form#animal-form label {
+  margin-bottom: 5px;
+}
+
+form#animal-form input,
+textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+form#animal-form button {
+  padding: 20px;
+  background-color: rgb(80, 180, 80);
+  border: none;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+#animal-list {
+  margin-top: 50px;
+}
+
+.card {
+  box-shadow: 1px 1px 10px;
+  margin: 20px 0 35px;
+  padding-bottom: 5px;
+}
+
+.card .content {
+  padding: 15px;
+}
+
+.card .buttons {
+  display: flex;
+  padding: 0 15px 15px;
+}
+
+.card .buttons button {
+  flex: 1;
+  padding: 10px;
+  background-color: rgb(4, 157, 4);
+  color: #FFF;
+  border: none;
+}
+
+.card .buttons button:first-child {
+  margin-right: 10px;
+}

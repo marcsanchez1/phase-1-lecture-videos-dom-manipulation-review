@@ -1,0 +1,34 @@
+{
+  "animalData": [
+    {
+      "name": "Storm",
+      "imageUrl": "https://images.pexels.com/photos/145939/pexels-photo-145939.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      "description": "Bengal Tiger",
+      "donations": 0
+    },
+    {
+      "name": "Snow White",
+      "imageUrl": "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Kitten",
+      "donations": 0
+    },
+    {
+      "name": "Simba",
+      "imageUrl": "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Lion",
+      "donations": 0
+    },
+    {
+      "name": "Speedy Gonzalez",
+      "imageUrl": "https://images.pexels.com/photos/87403/cheetah-leopard-animal-big-87403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Cheetah",
+      "donations": 0
+    },
+    {
+      "name": "Rose",
+      "imageUrl": "https://images.pexels.com/photos/34231/antler-antler-carrier-fallow-deer-hirsch.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Deer",
+      "donations": 0
+    }
+  ]
+}
