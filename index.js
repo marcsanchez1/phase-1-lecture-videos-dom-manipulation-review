@@ -25,14 +25,21 @@ function getAllAnimals() {
   fetch('http://localhost:3000/animalData')
   .then(res => res.json())
   .then(animalData => animalData.forEach(animal => renderOneAnimal(animal)))
-  console.log('before fetch returns')
+}
+
+function adoptAnimals(animalObj) {
+  console.log(JSON.stringify(animalObj))
+  // fetch('http://localhost:3000/animalData', {
+  //   method: 'POST',
+  //   headers: {
+  //     'content-Type': 'application/json'
+  //   }
+  // })
 }
 
 // Initial Render
   // Get data and render our animals to the DOM
 function initialize() {
   getAllAnimals()
-  console.log('after get all animals')
-  // animalData.forEach(animal => renderOneAnimal(animal))
 }
 initialize()
